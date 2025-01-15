@@ -1,0 +1,19 @@
+#header {
+    @include adaptive-value("padding-top", 40, 20, 1);
+    padding-bottom: 20px;
+
+    .header_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .logo {
+        @include adaptive-value("width", 147, 92, 1);
+    }
+
+    .app_store_btn {
+        @include adaptive-value("width", 192, 144, 1);
+    }
+}

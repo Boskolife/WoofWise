@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WoofWise</title>
+    <link rel="stylesheet" href="/styles/main.scss">
+    <script type="module" src="/js/main.js" defer></script>
+</head>
+
+<body class="doc_page">
+    {{> header }}
+    <main>
+        <picture class="line">
+            <source srcset="./images/line_phone_transparent.svg" media="(max-width: 650px)">
+            <img src="./images/line_transparent.svg" alt="line">
+        </picture>
+        <section class="docs_section">
+            <img class="paw_2 paws" src="./images/paw_3.svg" alt="paw">
+            <img class="paw_3 paws" src="./images/paw_4.svg" alt="paw">
+            <div class="container">
+                <div class="content">
+                    <span class="date">Effective Date: 15.01.2025</span>
+                    <h1 class="docs_title">Privacy Policy</h1>
+                    <p class="docs_descr">Thank you for using <span
+                            class="green_text">WoofWife!</span> Your privacy is important to
+                        us.
+                        This Privacy Policy explains what information we collect and how we handle
+                        it.
+                    </p>
+                    <div class="docs_list_wrap">
+                        <div class="item_wrap">
+                            <h2 class="docs_subtitle">1. Information We Collect</h2>
+                            <p class="docs_text">We do not collect any personal information directly
+                                from you. The only data associated with our app is collected
+                                automatically by the App Store, including:
+                            <ul class="text_list">
+                                <li class="list_item">
+                                    Download statistics.
+                                </li>
+                                <li class="list_item">
+                                    Anonymous usage data, as per App Store policies.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="item_wrap">
+                            <h2 class="docs_subtitle">2. How We Use Automatically Collected Data
+                            </h2>
+                            <p class="docs_text">The limited data collected by the App Store is used
+                                solely for analytical purposes to improve the app’s performance and
+                                user
+                                experience.
+                            </p>
+                        </div>
+                        <div class="item_wrap">
+                            <h2 class="docs_subtitle">3. Data Security</h2>
+                            <p class="docs_text">Since we do not collect personal information, there
+                                is
+                                no risk of misuse of your data within <b>WoofWife.</b> The App Store
+                                handles all data securely in accordance with their privacy policies.
+                            </p>
+                        </div>
+                        <div class="item_wrap">
+                            <h2 class="docs_subtitle">4. Children’s Privacy</h2>
+                            <p class="docs_text"><b>WoofWife</b> is suitable for all users aged 4
+                                and
+                                above. We do not knowingly collect or store any data from children.
+                            </p>
+                        </div>
+                        <div class="item_wrap">
+                            <h2 class="docs_subtitle">5. Changes to This Policy</h2>
+                            <p class="docs_text">We may update this Privacy Policy from time to
+                                time.
+                                Updates will be posted within the app or on our website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {{> footer }}
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+#footer {
+    @include adaptive-value("padding-top", 18, 12, 1);
+    @include adaptive-value("padding-bottom", 18, 12, 1);
+    @include adaptive-value("padding-right", 20, 0, 1);
+    @include adaptive-value("padding-left", 20, 0, 1);
+    background-color: $Green;
+
+    .footer_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .footer_logo {
+        @include adaptive-value("width", 129, 73, 1);
+    }
+
+    .link_wrap {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        @include media ("<phone") {
+            gap: 15px;
+        }
+    }
+
+    .docs_link {
+        color: #FFF9F4;
+        @include adaptive-value("font-size", 16, 14, 1);
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -0.16px;
+        transition: all .3s ease 0s;
+    }
+
+    @media (hover:hover) {
+        .docs_link:hover {
+            color: $Yellow;
+            text-decoration: underline;
+            transition: all .3s ease 0s;
+        }
+
+    }
+
+    @media (hover:none) {
+        .docs_link:active {
+            color: $Yellow;
+            text-decoration: underline;
+        }
+
+    }
+}

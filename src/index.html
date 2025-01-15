@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WoofWise</title>
+  <link rel="stylesheet" href="/styles/main.scss">
+  <script type="module" src="/js/main.js" defer></script>
+</head>
+
+<body class="main_page">
+  {{> header }}
+  <main>
+    <picture class="line">
+      <source srcset="./images/line_phone.svg" media="(max-width: 650px)">
+      <img src="./images/line.svg" alt="line">
+    </picture>
+    <section class="main_section">
+      <img class="paw_1 paws" src="./images/paw_1.svg" alt="paw">
+      <img class="paw_2 paws" src="./images/paw_1.svg" alt="paw">
+      <img class="paw_3 paws" src="./images/paw_2.svg" alt="paw">
+      <div class="container">
+        <h1 class="main_title">Your Perfect <br> Companion Awaits</h1>
+        <div class="content_wrap">
+          <div class="reviews_wrap">
+            <div class="reviews_body">
+              <span class="reviews_title">Our happy woof owners</span>
+              <div class="rated">
+                <div class="rated_number_wrap">
+                  <img class="star" src="./images/star.svg" alt="star">
+                  <span class="rated_number">4.9 <span class="opacity_text">(2.3k
+                      reviews)</span></span>
+                </div>
+              </div>
+              <img src="./images/rated_img.webp" alt="image not found" class="reviews_img">
+            </div>
+          </div>
+          <div class="dog_img">
+            <img src="./images/dog.webp" alt="dog">
+          </div>
+          <div class="main_text_wrap">
+            <p class="main_text">Discover your ideal dog breed with WoofWise! Whether you’re looking
+              for an energetic jogging partner or a cozy snuggle buddy, our app simplifies the
+              search
+              for your perfect furry friend.</p>
+          </div>
+        </div>
+        <div class="how_it_works_wrap">
+          <img class="paw_5 paw" src="./images/paw_3.svg" alt="paw">
+          <img class="paw_6 paw" src="./images/paw_4.svg" alt="paw">
+          <img class="paw_7 paw hidden_paw" src="./images/paw_3.svg" alt="paw">
+          <div class="breed_wrap breed_1">
+            <span class="breed_name">Border Collie</span>
+            <img class="arrow" src="./images/arrow_1.svg" alt="arrow">
+          </div>
+          <div class="breed_wrap breed_2">
+            <span class="breed_name">Dachshund</span>
+            <img class="arrow" src="./images/arrow_2.svg" alt="arrow">
+          </div>
+          <div class="breed_wrap breed_3">
+            <span class="breed_name">Chow Chow</span>
+            <img class="arrow" src="./images/arrow_3.svg" alt="arrow">
+          </div>
+          <div class="how_it_works_text">
+            <h2 class="how_it_works_wrap_title">How It Works</h2>
+            <p class="how_it_works_wrap_text">
+              With just a few quick questions about your lifestyle, activity level, and living
+              situation, WoofWise recommends dog breeds tailored to your unique preferences. Explore
+              detailed profiles, including pros, cons, and expert tips on care and training.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="steps_section">
+      <div class="container">
+        <div class="content">
+          <h2 class="steps_section_title">Take the First Step Toward Meeting your Perfect Companion
+          </h2>
+          <div class="steps_wrap">
+            <div class="step">
+              <img src="./images/spot_1.svg" alt="spot" class="step_spot">
+              <div class="step_content">
+                <img class="step_img" src="./images/step_icon_1.svg" alt="step">
+                <span class="step_title">Expert advice <br> on dog care</span>
+              </div>
+            </div>
+            <div class="step">
+              <img src="./images/spot_2.svg" alt="spot" class="step_spot">
+              <div class="step_content">
+                <img class="step_img" src="./images/step_icon_2.svg" alt="step">
+                <span class="step_title">Personalized breed <br> recommendations</span>
+              </div>
+            </div>
+            <div class="step">
+              <img src="./images/spot_3.svg" alt="spot" class="step_spot">
+              <div class="step_content">
+                <img class="step_img" src="./images/step_icon_3.svg" alt="step">
+                <span class="step_title">Quick and <br> easy process</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="started">
+      <div class="container">
+        <div class="content">
+          <h2 class="started_title">Get Started Today!</h2>
+          <div class="qr_img">
+            <img src="/./images/qr.webp" alt="app store qr code">
+          </div>
+          <a href="#" target="_blank" class="app_store_link">
+            <img src="./images/app_store.svg" alt="app store">
+          </a>
+        </div>
+      </div>
+      <!-- <img src="./images/line_2.svg" alt="line" class="line_2"> -->
+    </section>
+  </main>
+  {{> footer }}
+</body>
+
+</html>
